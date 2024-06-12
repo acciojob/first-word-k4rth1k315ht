@@ -1,14 +1,9 @@
 function firstWord(s) {
   // your code here
-	let str=s.trim();
-   let str1=str.split(" ");
+	const str=s.trim();
+   const str1=str.split(" ");
 
-	if (str.length>0) {
-		return str1;
-	}
-	else() {
-		return str;
-	} 
+	return str1.length > 0 ? str1[0] : str;
 	
 }
 
